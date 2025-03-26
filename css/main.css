@@ -1,3 +1,5 @@
+/* --- GLOBAL STYLES --- */
+
 .content-wrapper {
     width: 85%;
     margin: 0 auto;
@@ -7,24 +9,19 @@
     align-items: center; */
 }
 
+/* ----- HEADER INFO ------*/
+
 header {
     background: url(https://media.istockphoto.com/id/1451055584/photo/young-woman-is-learning-to-code-late-night.jpg?s=612x612&w=0&k=20&c=YwS_2Sk5fb37rqpc1zjQspKIdXR22vJKGcxJXUukrQs=) no-repeat center fixed;
     background-size: cover;
     color: white;
     text-align: center;
-
-}
-
-header .content-wrapper {
-    background: rgba(53, 29, 119, 0.5);
-    height: 800px;
-    padding: 30px 0px 30px 0px;
-
+    padding: 25px;
 }
 
 nav{
     float: right;
-    padding-right: 15px;
+    padding: 0px 15px 25px 0px;
 }
 
 nav ul li {
@@ -39,17 +36,36 @@ nav ul li a {
     font-size: 20px;
 }
 
+header .content-wrapper {
+    background: rgba(53, 29, 119, 0.5);
+    height: 650px;
+    border-radius: 40px;
+}
+
 header h1 {
     float: left;
     padding: 60px 0px 30px 0px;
     width: 100%;
     font-size: 78px;
-
+    margin: 0;
 }
 
 header h2 {
     float: left;
     width: 100%;
     font-size: 70px;
-
+    line-height: 100px;
 }
+
+/* ----- PROJECT INFO ------ */
+
+#projects {
+    background: #EC91C4;
+    color: #351D77;
+}
+
+/* ----- SKILLS AND TOOLS ----- */
+
+/* ----- ABOUT ME INFO ------- */
+
+/* ----- FOOTER/CONTACT INFO ----- */
