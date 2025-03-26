@@ -1,9 +1,15 @@
 /* --- GLOBAL STYLES --- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    ;
+}
 
 .content-wrapper {
     width: 85%;
     margin: 0 auto;
-    overflow:auto;
+    overflow: auto;
     /* display:flex;
     justify-content: center;
     align-items: center; */
@@ -19,13 +25,13 @@ header {
     padding: 25px;
 }
 
-nav{
+nav {
     float: right;
     padding: 0px 15px 25px 0px;
 }
 
 nav ul li {
-display: inline-block;
+    display: inline-block;
 }
 
 nav ul li a {
@@ -34,11 +40,12 @@ nav ul li a {
     padding-left: 50px;
     text-decoration: none;
     font-size: 20px;
+    font-weight: 500;
 }
 
 header .content-wrapper {
     background: rgba(53, 29, 119, 0.5);
-    height: 650px;
+    height: 750px;
     border-radius: 40px;
 }
 
@@ -48,6 +55,7 @@ header h1 {
     width: 100%;
     font-size: 78px;
     margin: 0;
+    font-family: "Winky Sans", sans-serif;
 }
 
 header h2 {
@@ -55,6 +63,19 @@ header h2 {
     width: 100%;
     font-size: 70px;
     line-height: 100px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.fa-size {
+    font-size: 145px;
+    color:#f4bedc;
+}
+
+.header-icons {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* ----- PROJECT INFO ------ */
