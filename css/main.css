@@ -3,16 +3,31 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    ;
 }
 
 .content-wrapper {
     width: 85%;
     margin: 0 auto;
     overflow: auto;
-    /* display:flex;
-    justify-content: center;
-    align-items: center; */
+}
+
+header,
+#projects,
+#skills,
+#about-me,
+#contact {
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.sub-title {
+    font-size: 60px;
+    margin: 0;
+    padding: 60px 0px 20px 0px;
+    text-decoration: overline underline;
 }
 
 /* ----- HEADER INFO ------*/
@@ -21,7 +36,6 @@ header {
     background: url(https://media.istockphoto.com/id/1451055584/photo/young-woman-is-learning-to-code-late-night.jpg?s=612x612&w=0&k=20&c=YwS_2Sk5fb37rqpc1zjQspKIdXR22vJKGcxJXUukrQs=) no-repeat center fixed;
     background-size: cover;
     color: white;
-    text-align: center;
     padding: 25px;
 }
 
@@ -68,7 +82,7 @@ header h2 {
 
 .fa-size {
     font-size: 145px;
-    color:#f4bedc;
+    color: #f4bedc;
 }
 
 .header-icons {
@@ -83,6 +97,11 @@ header h2 {
 #projects {
     background: #EC91C4;
     color: #351D77;
+}
+
+.project-img {
+    background-color: #F4BEDC;
+    border-radius: 45px;
 }
 
 /* ----- SKILLS AND TOOLS ----- */
