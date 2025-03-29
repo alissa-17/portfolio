@@ -19,12 +19,12 @@ header,
     text-align: center;
 }
 
-img{
-    width: 100%;
+img {
+    width: 90%;
 }
 
 .sub-title {
-    font-size: 60px;
+    font-size: 70px;
     margin: 0;
     padding: 60px 0px 20px 0px;
     text-decoration: overline underline;
@@ -97,11 +97,43 @@ header h2 {
 #projects {
     background: #EC91C4;
     color: #351D77;
+    border: solid 15px #f4bedc;
+}
+
+.portfolio-projects {
+    width: 75%;
 }
 
 .project-img {
     background-color: #F4BEDC;
     border-radius: 45px;
+}
+
+.project-piece {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-piece h2 {
+    width: fit-content;
+    margin: 0;
+    padding: 20px 0px;
+    font-size: 60px;
+
+}
+
+.project-description {
+    text-align: left;
+    margin: 0;
+    padding: 20px 0px 15px 0px;
+    width: 80%;
+}
+
+.project-piece h3 {
+    margin: 0;
+    padding: 15px 0px 20px 0px;
 }
 
 /* ----- SKILLS AND TOOLS ----- */
