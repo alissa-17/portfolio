@@ -160,6 +160,12 @@ header h2 {
     color: white;
 }
 
+#skills h3 {
+    margin: 0;
+    padding-top: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
 #skills ul {
     display: flex;
     flex-direction: column;
