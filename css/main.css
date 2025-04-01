@@ -155,6 +155,28 @@ header h2 {
 
 /* ----- SKILLS AND TOOLS ----- */
 
+#skills {
+    background-color: #351D77;
+    color: white;
+}
+
+#skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+#skills ul li {
+    background-color: #d4d3e9;
+    color: #351d77;
+    margin: 20px 0px;
+    padding: 15px 0px;
+    width: 400px;
+}
+
+
+
 /* ----- ABOUT ME INFO ------- */
 
 /* ----- FOOTER/CONTACT INFO ----- */
