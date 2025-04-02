@@ -68,7 +68,6 @@ header .content-wrapper {
 }
 
 header h1 {
-    float: left;
     padding: 60px 0px 15px 0px;
     width: 100%;
     font-size: 78px;
@@ -160,6 +159,10 @@ header h2 {
     color: white;
 }
 
+#skills .content-wrapper {
+    padding-bottom: 40px;
+}
+
 #skills h3 {
     margin: 0;
     padding-top: 20px;
@@ -182,7 +185,34 @@ header h2 {
 }
 
 
-
 /* ----- ABOUT ME INFO ------- */
+
+#about-me {
+    background-color: #eee4f0;
+    color: #351D77;
+
+}
+
+#about-me .content-wrapper {
+    padding-top: 20px;
+}
+
+#about-me img {
+    padding: 40px 0px;
+}
+
+#about-me h3 {
+    margin: 0;
+    padding-bottom: 50px;
+    font-family: "Winky Sans", sans-serif;
+    font-size: 45px;
+}
+
+#about-me p {
+    margin: 0;
+    padding-bottom: 45px;
+    line-height: 65px;
+}
+
 
 /* ----- FOOTER/CONTACT INFO ----- */
