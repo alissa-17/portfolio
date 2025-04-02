@@ -194,7 +194,7 @@ header h2 {
 }
 
 #about-me .content-wrapper {
-    padding-top: 20px;
+    padding: 20px 0px 75px 0px;
 }
 
 #about-me img {
