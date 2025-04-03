@@ -1,4 +1,8 @@
 /* --- GLOBAL STYLES --- */
+html{
+background-color:#eee4f0;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -216,3 +220,48 @@ header h2 {
 
 
 /* ----- FOOTER/CONTACT INFO ----- */
+
+#contact {
+    background-color: #e8f0e4;
+    color: #351D77;
+    border-radius: 70px;
+}
+
+#contact h2 {
+    font-size: 70px;
+    font-family: "Winky Sans", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 80px 0px 60px 0px;
+}
+
+#contact h3 {
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+#contact p {
+    margin: 0;
+    font-size: 30px;
+}
+
+#contact .find-me{
+    font-size: 65px;
+    padding: 90px 0px 30px 0px;
+}
+
+.fa-follow {
+    font-size: 100px;
+    color: #e9b14c;
+    margin: 0px 30px;
+}
+
+.footer-icons {
+    margin: 0;
+    padding-bottom: 150px;
+}
+
+.copyright {
+    padding-bottom: 40px; 
+}
