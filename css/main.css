@@ -176,6 +176,7 @@ header h2 {
     margin: 0;
     padding-top: 20px;
     font-family: "Open Sans", sans-serif;
+    font-size: 2.6rem;
 }
 
 #skills ul {
@@ -190,7 +191,8 @@ header h2 {
     color: #351d77;
     margin: 20px 0px;
     padding: 15px 0px;
-    width: 400px;
+    width: 100%;
+    font-size: 1.5rem;
 }
 
 
@@ -336,6 +338,9 @@ header h2 {
     .project-piece h2 {
         font-size: 1.875rem;
     }
+
+    /* skills */
+
 
 }
 
