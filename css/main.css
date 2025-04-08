@@ -184,6 +184,7 @@ header h2 {
     flex-direction: column;
     align-items: center;
     padding: 0;
+    list-style: none;
 }
 
 #skills ul li {
@@ -345,7 +346,26 @@ header h2 {
 
     /* skills */
 
+    #skills .content-wrapper {
+        padding-bottom: 84px;
+    }
 
+    #skills .sub-title {
+        padding-top: 80px;
+    }
+
+    .developer-skills {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .developer-skills ul {
+        width: 46%;
+    }
+
+    .tech-stack ul {
+        width: 100%;
+    }
 
     /* about */
 
