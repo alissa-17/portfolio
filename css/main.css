@@ -210,7 +210,7 @@ header h2 {
 }
 
 #about-me img {
-    padding: 40px 0px;
+    margin: 40px 0px;
 }
 
 #about-me h3 {
@@ -256,6 +256,9 @@ header h2 {
 
 #contact .find-me {
     font-size: 3rem;
+    font-family: "Winky Sans", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
     padding: 90px 0px 30px 0px;
 }
 
@@ -369,8 +372,18 @@ header h2 {
 
     /* about */
 
+    #about-me .sub-title {
+        padding-top: 100px;
+    }
+
+    #about-me img {
+        border: double peachpuff 40px;
+        width: 80%;
+    }
+
     #about-me h3 {
         font-size: 2.813rem;
+        padding: 40px 0px 70px 0px;
     }
 
 
@@ -378,18 +391,40 @@ header h2 {
 
     #contact h2 {
         font-size: 4.375rem;
+        padding-bottom: 80px;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: space-evenly;
     }
 
     #contact h3 {
-        font-size: 3.125rem;
+        font-size: 2rem;
     }
 
     #contact p {
-        font-size: 1.875rem;
+        font-size: 1.2rem;
     }
 
     #contact .find-me {
-        font-size: 4.063rem;
+        font-family: "Montserrat", sans-serif;
+        text-transform: none;
+        font-size: 2rem;
+        padding: 0px 0px 20px 0px;
+
+    }
+
+    .fa-follow {
+        font-size: 2.5rem;
+    }
+
+    .footer-icons {
+        padding-bottom: 0px;
+    }
+
+    .copyright {
+        padding: 80px 0px;
     }
 }
 
