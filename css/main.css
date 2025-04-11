@@ -124,6 +124,10 @@ header h2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #f4bedc;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    padding-top: 30px;
 }
 
 .project-piece h2 {
@@ -271,6 +275,8 @@ header h2 {
 .footer-icons {
     margin: 0;
     padding-bottom: 150px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .copyright {
@@ -280,7 +286,7 @@ header h2 {
 
 
 
-/*-------- MEDIA QUERIES -----------*/
+/*-------------------- MEDIA QUERIES ----------------*/
 
 @media only screen and (max-width: 240px) {}
 
@@ -290,9 +296,10 @@ header h2 {
 
 @media only screen and (min-width: 540px) {}
 
-@media only screen and (min-width: 768px) {
 
-    /* Tablets styles */
+/* --------- Tablets styles --------- */
+
+@media only screen and (min-width: 768px) {
 
     .sub-title {
         font-size: 4.375rem;
@@ -336,9 +343,7 @@ header h2 {
         margin: 50px 0px 15px 0px;
         padding-top: 30px;
         width: 46%;
-        background-color: #f4bedc;
-        height: 970px;
-        border-radius: 30px;
+        height: 870px;
         justify-content: flex-start;
         box-shadow: 7px 7px 10px;
     }
@@ -428,7 +433,33 @@ header h2 {
     }
 }
 
-@media only screen and (min-width: 1200px) {
 
-    /* Desktop styles */
+/* ------------ Desktop styles ---------------- */
+
+@media only screen and (min-width: 1024px) {
+
+    /* ------ HEADER --------- */
+
+    nav ul {
+        float: right;
+        width: 50%;
+        }
+
+    nav ul li {
+        padding-left: 40px;
+    }
+
+    header h2 {
+        padding: 25px 0px 40px 0px;
+        margin: 0;
+        font-size: 1.8rem;
+    }
+
+    .fa-size {
+        font-size: 4rem;
+    }
+
+    header .content-wrapper {
+        width: 60%;
+    }
 }
