@@ -124,9 +124,6 @@ header h2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #f4bedc;
-    border-radius: 30px;
-    margin-bottom: 50px;
     padding-top: 30px;
 }
 
@@ -340,12 +337,14 @@ header h2 {
     }
 
     .project-piece {
-        margin: 50px 0px 15px 0px;
+        margin: 50px 0px;
         padding-top: 30px;
         width: 46%;
         height: 870px;
         justify-content: flex-start;
         box-shadow: 7px 7px 10px;
+        background-color: #f4bedc;
+        border-radius: 30px;
     }
 
     .project-piece h2 {
@@ -439,11 +438,19 @@ header h2 {
 @media only screen and (min-width: 1024px) {
 
     /* ------ HEADER --------- */
+    header {
+        padding: 50px 25px;
+    }
+
+    header h1 {
+        padding-top: 40px;
+    }
 
     nav ul {
         float: right;
         width: 50%;
-        }
+        margin-bottom: 50px;
+    }
 
     nav ul li {
         padding-left: 40px;
@@ -459,7 +466,14 @@ header h2 {
         font-size: 4rem;
     }
 
-    header .content-wrapper {
-        width: 60%;
+
+    /* -------- PROJECTS --------- */
+
+    .project-piece {
+        height: 800px;
+        width: 330px;
+    }
+
+    .projects-section {
     }
 }
