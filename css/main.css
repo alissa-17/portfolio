@@ -471,9 +471,29 @@ header h2 {
 
     .project-piece {
         height: 800px;
-        width: 330px;
+        width: 35%;
+    }
+
+    .project-piece h2 {
+        font-size: 1.4rem;
     }
 
     .projects-section {
+        justify-content: space-evenly;
+    }
+}
+
+
+/* ------- ANOTHER BREAKPOINT ------ */
+
+@media only screen and (min-width: 1440px) {
+    /* ----- PROJECTS ----- */
+
+    .project-piece {
+        width: 20%;
+    }
+
+    .project-piece p {
+        font-size: 1rem;
     }
 }
