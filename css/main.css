@@ -212,6 +212,8 @@ header h2 {
 
 #about-me img {
     margin: 40px 0px;
+    border: solid rgba(53, 29, 119, 0.5) 10px;
+
 }
 
 #about-me h3 {
