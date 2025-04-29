@@ -180,7 +180,7 @@ header h2 {
     font-size: 2.6rem;
 }
 
-#skills ul {
+.tech-stack ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -188,7 +188,7 @@ header h2 {
     list-style: none;
 }
 
-#skills ul li {
+.skill, .tool {
     background-color: #d4d3e9;
     color: #351d77;
     margin: 20px 0px;
@@ -377,6 +377,10 @@ header h2 {
 
     .tech-stack ul {
         width: 100%;
+    }
+
+    .tool {
+        width: 50%;
     }
 
     /* about */
