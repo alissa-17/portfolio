@@ -289,7 +289,12 @@ header h2 {
 
 @media only screen and (max-width: 344px) {}
 
-@media only screen and (min-width: 480px) {}
+@media only screen and (max-width: 425px) {
+
+    .sub-title {
+        font-size: 2.2rem;
+    }
+}
 
 @media only screen and (min-width: 540px) {}
 
@@ -381,7 +386,7 @@ header h2 {
     }
 
     #about-me img {
-        border: double peachpuff 40px;
+        border: double rgba(53, 29, 119, 0.5) 40px;
         width: 80%;
     }
 
@@ -480,6 +485,31 @@ header h2 {
 
     .projects-section {
         justify-content: space-evenly;
+    }
+
+
+    /* ----------- ABOUT ---------- */
+
+    #about-me img {
+        float: left;
+        width: 40%;
+        margin-right: 20px;
+        border: solid rgba(53, 29, 119, 0.5) 10px;
+    }
+
+    #about-me p {
+        text-align: left;
+        line-height: normal;
+        padding-bottom: 30px;
+    }
+
+    #about-me h3 {
+        padding-bottom: 40px;
+    }
+
+    .about-description {
+        width: 50%;
+        float: left;
     }
 }
 
