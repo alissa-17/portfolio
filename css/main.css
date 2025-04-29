@@ -511,7 +511,7 @@ header h2 {
     #about-me img {
         float: left;
         width: 40%;
-        margin-right: 20px;
+        margin-right: 60px;
         border: solid rgba(53, 29, 119, 0.5) 10px;
     }
 
