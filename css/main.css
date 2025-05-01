@@ -180,6 +180,10 @@ header h2 {
     font-size: 2.6rem;
 }
 
+.developer-skills ul {
+    padding-left: 0;
+}
+
 .tech-stack ul {
     display: flex;
     flex-direction: column;
@@ -301,7 +305,7 @@ header h2 {
 }
 
 @media only screen and (min-width: 425px) {
- 
+
     /* ----- HEADER ----- */
 
     nav ul li a {
@@ -503,6 +507,17 @@ header h2 {
 
     .projects-section {
         justify-content: space-evenly;
+    }
+
+    /* ----------- SKILLS ---------- */
+
+    .tech-stack ul {
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+    .tool {
+        width: 45%;
     }
 
 
