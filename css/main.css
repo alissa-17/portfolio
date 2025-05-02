@@ -16,7 +16,7 @@ body {
     overflow: auto;
 }
 
-header,
+main,
 #projects,
 #skills,
 #about-me,
@@ -40,20 +40,18 @@ img {
 /* ----- HEADER INFO ------*/
 
 header {
-    background: url(https://media.istockphoto.com/id/1451055584/photo/young-woman-is-learning-to-code-late-night.jpg?s=612x612&w=0&k=20&c=YwS_2Sk5fb37rqpc1zjQspKIdXR22vJKGcxJXUukrQs=) no-repeat center fixed;
-    background-size: cover;
-    color: white;
-    padding: 25px;
+    background-color: #e8f0e4;
 }
 
 nav {
-    padding-bottom: 25px;
+    padding: 25px 0px;
 }
 
 nav ul {
     display: flex;
     justify-content: space-evenly;
     padding-left: 0px;
+    margin: 0;
 }
 
 nav ul li {
@@ -61,20 +59,27 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #351D77;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 0.75rem;
     font-weight: 500;
 }
 
-header .content-wrapper {
+main {
+    background: url(https://media.istockphoto.com/id/1451055584/photo/young-woman-is-learning-to-code-late-night.jpg?s=612x612&w=0&k=20&c=YwS_2Sk5fb37rqpc1zjQspKIdXR22vJKGcxJXUukrQs=) no-repeat center fixed;
+    background-size: cover;
+    color: white;
+    padding: 25px;
+}
+
+main .content-wrapper {
     background: rgba(53, 29, 119, 0.5);
     border-radius: 40px;
     overflow: hidden;
 }
 
-header h1 {
+main h1 {
     padding: 60px 0px 15px 0px;
     width: 100%;
     font-size: 3rem;
@@ -82,7 +87,7 @@ header h1 {
     font-family: "Winky Sans", sans-serif;
 }
 
-header h2 {
+main h2 {
     float: left;
     font-size: 1.8rem;
     font-family: "Open Sans", sans-serif;
@@ -95,7 +100,7 @@ header h2 {
     color: #f4bedc;
 }
 
-.header-icons {
+.follow-icons {
     display: flex;
     padding: 30px;
     justify-content: space-around;
@@ -326,11 +331,11 @@ header h2 {
     }
 
     /* header */
-    header h1 {
+    main h1 {
         font-size: 4.875rem;
     }
 
-    header h2 {
+    main h2 {
         padding: 30px 0px 40px 0px;
         font-size: 3.438rem;
     }
@@ -339,7 +344,7 @@ header h2 {
         font-size: 9.063rem;
     }
 
-    .header-icons {
+    .follow-icons {
         margin-bottom: 60px;
     }
 
@@ -465,25 +470,29 @@ header h2 {
 @media only screen and (min-width: 1024px) {
 
     /* ------ HEADER --------- */
+
     header {
+        height: 75px;
+    }
+
+    main {
         padding: 50px 25px;
     }
 
-    header h1 {
+    main h1 {
         padding-top: 40px;
     }
 
     nav ul {
         float: right;
         width: 50%;
-        margin-bottom: 50px;
     }
 
     nav ul li {
         padding-left: 40px;
     }
 
-    header h2 {
+    main h2 {
         padding: 25px 0px 40px 0px;
         margin: 0;
         font-size: 1.8rem;
