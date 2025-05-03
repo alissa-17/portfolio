@@ -293,7 +293,7 @@ main h2 {
     font-size: 1.5rem;
 }
 
-.contact-me a {
+#contact p a {
     text-decoration: none;
     color:#351D77;
 }
