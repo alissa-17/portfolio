@@ -295,7 +295,7 @@ main h2 {
 
 #contact p a {
     text-decoration: none;
-    color:#351D77;
+    color: #351D77;
 }
 
 #contact .find-me {
@@ -326,7 +326,7 @@ main h2 {
 
 @media (prefers-reduced-motion: no-preference) {
     html {
-        scroll-behavior: smooth;  
+        scroll-behavior: smooth;
     }
 }
 
@@ -607,4 +607,28 @@ main h2 {
     .project-piece p {
         font-size: 1rem;
     }
+}
+
+/* ------- ANOTHER BREAKPOINT ------ */
+
+@media only screen and (min-width: 1750px) {
+
+    /* ----- GLOBAL ----- */
+
+    html {
+        font-size: 19px;
+    }
+
+    /* ----- HEADER ------- */
+
+    main h2 {
+        font-size: 3rem;
+    }
+
+    /* ----- ABOUT ------- */
+
+    #about-me p {
+        font-size: 1.6rem;
+    }
+
 }
