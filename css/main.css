@@ -293,6 +293,11 @@ main h2 {
     font-size: 1.5rem;
 }
 
+.contact-me a {
+    text-decoration: none;
+    color:#351D77;
+}
+
 #contact .find-me {
     font-size: 3rem;
     font-family: "Winky Sans", sans-serif;
